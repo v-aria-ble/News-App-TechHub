@@ -3,3 +3,6 @@ Mobile Programming Project - News App (TechHub)
 - Beryl Thifaal
 - d
 
+Masukkan API Key newsapi.org dalam class ArticleFragment
+
+
