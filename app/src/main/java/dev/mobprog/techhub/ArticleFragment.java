@@ -28,6 +28,7 @@ import dev.mobprog.techhub.recycleAdapter.ArticleEVAdapter;
  * create an instance of this fragment.
  */
 public class ArticleFragment extends Fragment {
+    private final String APIKEY = "";
     private RecyclerView recyclerView, recyclerView2;
     private ArticleAdapter articleAdapter;
     private ArticleEVAdapter articleEVAdapter;
@@ -68,7 +69,7 @@ public class ArticleFragment extends Fragment {
     }
 
     private void fetchArticles(String query) {
-        NewsApiClient newsApiClient = new NewsApiClient("");
+        NewsApiClient newsApiClient = new NewsApiClient(APIKEY);
 
         newsApiClient.getTopHeadlines(
                 new TopHeadlinesRequest.Builder()

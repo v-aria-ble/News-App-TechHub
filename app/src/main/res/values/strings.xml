@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">News App</string>
+    <string name="app_name">TechHub</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="general_button">General</string>
     <string name="ai_button">AI</string>
